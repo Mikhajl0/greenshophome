@@ -1,14 +1,19 @@
-* {
-    box-sizing: border-box;
-}
+// * {
+//     box-sizing: border-box;
+// }
 
-body {
-    margin: 0;
-    font-family: Roboto;
+// body {
+//     margin: 0;
+//     font-family: Roboto;
+//     background-color: #3D3D3D;
+// }
+.registration-color {
     background-color: #3D3D3D;
+    width: 100%;
+    height: 100%;
 }
 
-.wrapper {
+.wrapper-registration {
     width: 500px;
     margin-left: auto;
     margin-right: auto;
