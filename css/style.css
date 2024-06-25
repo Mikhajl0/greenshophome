@@ -6,7 +6,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import '../fonts/stylesheet.css';
+@import '../font/stylesheet.css';
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -350,6 +350,21 @@ body {
   margin-top: 8px;
 }
 
+.header-login {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-content: center;
+  margin-right: 30px;
+}
+
+.header-vector {
+  display: flex;
+  width: 210px;
+  gap: 30px;
+  margin-right: 30px;
+}
+
 .link {
   text-decoration: none;
   color: #3D3D3D;
@@ -552,6 +567,7 @@ body {
 .footer-media {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 10px;
   padding-top: 20px;
   padding-bottom: 33px;
@@ -559,6 +575,11 @@ body {
 
 .footer-a {
   line-height: 0;
+}
+
+.footer-svg {
+  padding: 7px;
+  border: 1px solid rgba(70, 163, 88, 0.2);
 }
 
 .title-accept {
@@ -705,6 +726,9 @@ body {
 }
 
 .blog-transition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -823,6 +847,64 @@ body {
   font-weight: 700;
   line-height: 16px;
   color: #46A358;
+}
+
+.card {
+  position: relative;
+}
+
+.card-flowers {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-hover {
+  display: flex;
+  justify-content: center;
+  gap: 27px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -37px;
+  transition: 1s;
+}
+
+.card:hover .card-hover {
+  bottom: 7px;
+}
+
+.card-button {
+  display: none;
+  border: none;
+}
+
+.card::before {
+  content: "";
+  height: 2px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  z-index: 1;
+}
+
+.card:hover::before {
+  display: block;
+}
+
+.bar-text {
+  position: absolute;
+  left: 0;
+  top: 14px;
+  background-color: #46A358;
+  padding: 7px 8px 6px 9px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  z-index: 2;
 }
 
 .page {

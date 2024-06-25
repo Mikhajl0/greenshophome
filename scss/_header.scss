@@ -31,9 +31,15 @@
     justify-content: space-between;
     justify-content: center;
     align-content: center;
-    gap: 30px;
+    margin-right: 30px;
 }
 
+.header-vector {
+    display: flex;
+    width: 210px;
+    gap: 30px;
+    margin-right: 30px;
+}
 
 .link {
     text-decoration: none;
