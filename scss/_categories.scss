@@ -34,6 +34,7 @@
 .footer-media {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 10px;
     padding-top: 20px;
     padding-bottom: 33px;
@@ -41,6 +42,11 @@
 
 .footer-a {
     line-height: 0;
+}
+
+.footer-svg {
+    padding: 7px;
+    border: 1px solid #46A35833
 }
 
 .title-accept {
