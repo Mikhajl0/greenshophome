@@ -118,6 +118,9 @@
 }
 
 .blog-transition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
