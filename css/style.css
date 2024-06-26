@@ -352,17 +352,18 @@ body {
 
 .header-login {
   display: flex;
-  justify-content: space-between;
   justify-content: center;
   align-content: center;
-  margin-right: 30px;
 }
 
 .header-vector {
-  display: flex;
-  width: 210px;
-  gap: 30px;
   margin-right: 30px;
+  padding-top: 8px;
+}
+
+.header-button {
+  height: 22px;
+  border: 0;
 }
 
 .link {
@@ -574,12 +575,14 @@ body {
 }
 
 .footer-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
   line-height: 0;
-}
-
-.footer-svg {
-  padding: 7px;
   border: 1px solid rgba(70, 163, 88, 0.2);
+  border-radius: 4px;
 }
 
 .title-accept {
@@ -656,7 +659,7 @@ body {
   color: #FFFFFF;
 }
 
-.search-img {
+.search-svg {
   display: inline-block;
   vertical-align: middle;
 }
@@ -727,8 +730,7 @@ body {
 
 .blog-transition {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-content: center;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -736,8 +738,13 @@ body {
   color: #3D3D3D;
 }
 
+.blog-svg {
+  margin-left: 5px;
+}
+
 .blog-transition:hover {
   color: #46A358;
+  stroke: #46A358;
 }
 
 .footer-contacts {
@@ -759,7 +766,11 @@ body {
 }
 
 .footer-div {
-  width: 205px;
+  width: 210px;
+}
+
+.footer-svg-icon {
+  margin-right: 5px;
 }
 
 .address-text {
@@ -801,6 +812,11 @@ body {
   border-bottom: 2px solid #46A358;
   padding-bottom: 7px;
   font-weight: 700;
+  stroke: #46A358;
+}
+
+.arrow-down-bottom:hover path {
+  stroke: #46A358;
 }
 
 .arrivals {
@@ -871,11 +887,15 @@ body {
 
 .card:hover .card-hover {
   bottom: 7px;
+  transition: 2s;
 }
 
 .card-button {
-  display: none;
   border: none;
+}
+
+.social-icon:hover path {
+  stroke: #46A358;
 }
 
 .card::before {

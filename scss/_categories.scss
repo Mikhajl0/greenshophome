@@ -40,14 +40,18 @@
     padding-bottom: 33px;
 }
 
+
 .footer-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
     line-height: 0;
+    border: 1px solid #46A35833;
+    border-radius: 4px;
 }
 
-.footer-svg {
-    padding: 7px;
-    border: 1px solid #46A35833
-}
 
 .title-accept {
     margin-bottom: 13px;

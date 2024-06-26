@@ -20,11 +20,15 @@
 
 .card:hover .card-hover {
     bottom: 7px;
+    transition: 2s;
 }
 
 .card-button {
-    display: none;
     border: none;
+}
+
+.social-icon:hover path {
+    stroke: #46A358;
 }
 
 .card::before {

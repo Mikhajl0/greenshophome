@@ -49,7 +49,7 @@
     color: #FFFFFF;
 }
 
-.search-img {
+.search-svg {
     display: inline-block;
     vertical-align: middle;
 }
@@ -119,14 +119,19 @@
 
 .blog-transition {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-content: center;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     color: #3D3D3D;
 }
+
+.blog-svg {
+    margin-left: 5px;
+}
+
 .blog-transition:hover {
     color: #46A358;
+    stroke: #46A358;
 }

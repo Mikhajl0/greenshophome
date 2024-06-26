@@ -1,4 +1,4 @@
-.footer-contacts {
+ .footer-contacts {
     display: flex;
     justify-content: space-between;
     gap: 155px;
@@ -17,7 +17,11 @@
 }
 
 .footer-div {
-    width: 205px;
+    width: 210px;
+}
+
+.footer-svg-icon {
+    margin-right: 5px;
 }
 
 .address-text {

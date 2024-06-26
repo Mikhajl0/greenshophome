@@ -28,17 +28,18 @@
 
 .header-login {
     display: flex;
-    justify-content: space-between;
     justify-content: center;
     align-content: center;
-    margin-right: 30px;
 }
 
 .header-vector {
-    display: flex;
-    width: 210px;
-    gap: 30px;
     margin-right: 30px;
+    padding-top: 8px;
+}
+
+.header-button {
+    height: 22px;
+    border: 0;
 }
 
 .link {
@@ -69,6 +70,7 @@
     font-weight: 500;
     padding: 7px 17px 8px 18px;
 }
+
 .key {
     background-color: #46A358;
     border-radius: 6px;
@@ -81,6 +83,7 @@
 .img-login {
     display: inline-block;
 }
+
 .span-login {
     vertical-align: top;
     margin-left: 1px;
